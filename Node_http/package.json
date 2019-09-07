@@ -1,0 +1,24 @@
+{
+  "name": "node_http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasminabelhadj/web-projects.git"
+  },
+  "keywords": [
+    "Yas",
+    "1581996"
+  ],
+  "author": "yasmine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasminabelhadj/web-projects/issues"
+  },
+  "homepage": "https://github.com/yasminabelhadj/web-projects#readme"
+}
