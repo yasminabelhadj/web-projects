@@ -15,9 +15,14 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
+
 const mongoose = require ('mongoose');
+
 const Dishes = require('./models/dishes');
+const Promotions = require('./models/promotions');
+
 const url = 'mongodb://localhost:27017/conFusion';
+
 const connect = mongoose.connect(url, { useNewUrlParser: true });
 
 //establishing connection to the server:
